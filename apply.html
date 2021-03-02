@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/images/logo/bluebell-logistics-122x122.png">
+    <title>Apply | Bluebell Logistics</title>
+    <!-- CSS STYLESHEETS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/d5e015dcee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html"><img src="./assets/images/logo/bluebell-logistics-40x40.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="staff.html">Staff</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+                <a class="nav-item nav-link active" href="#">Apply</a>
+                <a class="nav-item nav-link" href="events.html">Events</a>
+                <a class="nav-item nav-link" href="stafflogin.html">Staff Login</a>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===MAIN=== -->
+    <main>
+        <section class="apply">
+            <div class="container py-5">
+                <h1 class="font-weight-bold text-center">APPLY</h1>
+                <h5 class="text-center">Please fill out all information correctly. Double check before submitting</h5>
+                <form action="" class="needs-validation py-3" novalidate>
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <label for="validationCustom01">Name</label>
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="John Doe" pattern="^[^±!@£$%^&*_+§¡€#¢§¶•ªº«\\/<>?:;|=.,]{1,20}$" required>
+                            <div class="invalid-feedback">
+                                Please enter your name.
+                            </div>
+                          </div>
+                          <div class="col-md-4 mb-3">
+                            <label for="validationCustom01">Email</label>
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="johndoe@email.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                            <div class="invalid-feedback">
+                                Please provide a valid email
+                            </div>
+                          </div>
+                          <div class="col-md-4 mb-3">
+                            <label for="validationCustom01">Age</label>
+                            <input type="number" class="form-control" id="validationCustom01" placeholder="16+" required pattern="^(?:1[01][6-9]|120|1[6-9]|[2-9][0-9])$" min="0">
+                            <div class="invalid-feedback">
+                                You must be over the age of 16 to join us!
+                            </div>
+                          </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <label for="validationCustom01">Discord</label>
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="Username#1111" required pattern="^((.+?)#\d{4})">
+                            <div class="invalid-feedback">
+                                Please enter your discord username. Make sure to include your discriminator aswell!
+                            </div>
+                          </div>
+                          <div class="col-md-4 mb-3">
+                            <label for="validationCustom01">Discord ID</label>
+                            <input type="number" class="form-control" id="validationCustom01" required pattern="[0-9]*" min="0">
+                            <small class="text-muted form-text">
+                                Turn on developer tools to be able to get your user id!
+                            </small>
+                            <div class="invalid-feedback">
+                                Please enter your discord ID. Turn on developer tools and right click on your user and copy ID!
+                            </div>
+                          </div>
+                          <div class="col-md-4 mb-3">
+                            <label for="validationCustom01">Hours in game</label>
+                            <input type="number" class="form-control" id="validationCustom01" required pattern="^([5-9]\d|[1-9]\d{2,})$" min="50">
+                            <div class="invalid-feedback">
+                                You must have 50+ hours in either ETS or ATS!
+                            </div>
+                          </div>
+                    </div>
+                    <div class="form-row justify-content-center">
+                        <div class="col-md-12 mb-11">
+                            <label for="validationCustom01">Why would you like to join Bluebell Logisitics</label>
+                            <div class="input-group">
+                                <textarea class="form-control" aria-label="With textarea" id="validationCustom01" required></textarea>
+                                <div class="invalid-feedback">
+                                    This field is required!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-11 my-3">
+                            <label for="validationCustom01">Do you have any other VTC experience?</label>
+                            <div class="input-group">
+                                <textarea class="form-control" aria-label="With textarea" id="validationCustom01" required></textarea>
+                                <div class="invalid-feedback">
+                                    This field is required!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-11">
+                            <label for="validationCustom01">What days are you free?</label>
+                            <div class="input-group">
+                                <textarea class="form-control" aria-label="With textarea" id="validationCustom01" required></textarea>
+                                <div class="invalid-feedback">
+                                    This field is required!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-col">
+                            <div class="row"><button class="btn btn-primary mt-4" type="submit">Submit form</button></div>
+                            <div class="row pt-3">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label href="" class="custom-control-label" for="customCheck1"><a href="" class="text-primary">You agree to our privacy policy before applying</a></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+                <script>
+                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                    (function() {
+                      'use strict';
+                      window.addEventListener('load', function() {
+                        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                        var forms = document.getElementsByClassName('needs-validation');
+                        // Loop over them and prevent submission
+                        var validation = Array.prototype.filter.call(forms, function(form) {
+                          form.addEventListener('submit', function(event) {
+                            if (form.checkValidity() === false) {
+                              event.preventDefault();
+                              event.stopPropagation();
+                            }
+                            form.classList.add('was-validated');
+                          }, false);
+                        });
+                      }, false);
+                    })();
+                    </script>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer bg-dark text-light">
+        <div class="container">
+            <div class="col mx-auto">
+                <div class="col text-center order-1"><div class="media-wrap"><img src="./assets/images/logo/bluebell-logistics-122x122.png" alt=""></div></div>
+                <div class="col footerLinks text-center px-md-5 order-2">
+                    <div class="row justify-content-center">
+                        <ul class="list-group list-group-horizontal-sm">
+                            <a href="index.html"><li class="list-group-item border-0 group-item-action list-group-item-light bg-transparent font-weight-bold">Home</li></a>
+                            <a href="staff.html"><li class="list-group-item border-0 group-item-action list-group-item-light bg-transparent font-weight-bold">Staff</li></a>
+                            <a href="contact.html"><li class="list-group-item border-0 group-item-action list-group-item-light bg-transparent font-weight-bold">Contact</li></a>
+                            <a href="#"><li class="list-group-item border-0 group-item-action list-group-item-light bg-transparent font-weight-bold">Apply</li></a>
+                            <a href="events.html"><li class="list-group-item border-0 group-item-action list-group-item-light bg-transparent font-weight-bold">Events</li></a>
+                        </ul>
+                    </div>
+                    <p class="row-3 text-muted text-center">© Copyright 2020 Bluebell Logistics - All Rights Reserved</p>
+                    <a href="https://yourdevelopment.net/"><p class="row-3 text-center creditText">Coded & Designed by Your<b>Development</b></p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
